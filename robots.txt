@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://nagarajpandith.github.io/sitemap/sitemap-index.xml
-Host: https://nagarajpandith.github.io
