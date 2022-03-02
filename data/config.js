@@ -62,7 +62,15 @@ export const contact = {
   mail: [
     {
       email: 'nagaraj.pandith2002@gmail.com',
-      info: 'Personal Email'
+      info: 'Personal mail'
+    },
+    {
+      email: 'nagaraj.pandith@vibean.co',
+      info: 'Work mail'
+    },
+    {
+      email: '4nm20cs115@nmamit.in',
+      info: 'College mail'
     }
   ]
 };
@@ -121,4 +129,9 @@ export const videos = {
       info: 'Watch Video'
     }
   ]
+};
+
+export const about = {
+  title: "About Me.",
+  desc: "Hello there! A lil' backstory of mine. Technology and Computers always fascinated me since childhood. Back in 2017, I had developed an interest in Cybersecurity and constantly explored the Security field. My curiosity in Web development grew in 2019 observing beautiful Web UIs on Personal and Business web pages. I then started my journey learning basic internet fundamentals, Javascript to Django and other tech throughout my journey. Fast forward to now, I'm a proficient Full-stack web developer, with React in frontend and Django in backend. I also love creating videos on Adobe Premiere Pro and making tiny motion graphics on Adobe After effects as well. Ocassionally, I also write tech articles on Medium and also create videos on my YouTube channel. While not working on a project, you'll find me watching a Crime thriller or jamming to some EDM banger."
 };
