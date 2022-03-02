@@ -59,6 +59,8 @@ export const contact = {
   title: 'Contact Me',
   github: 'nagarajpandith',
   linkedin: 'nagaraj-pandith',
+  instagram: 'nagarajpandithh',
+  youtube: 'TheMaterrwelonn',
   mail: [
     {
       email: 'nagaraj.pandith2002@gmail.com',

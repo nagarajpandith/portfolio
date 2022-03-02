@@ -40,17 +40,17 @@ export default function Stack() {
             />
           </a>
         )}
-        {contact.dribbble && (
+        {contact.instagram && (
           <a
-            href={`https://dribbble.com/${contact.dribbble}`}
+            href={`https://www.instagram.com/${contact.instagram}`}
             target="_blank"
             rel="noreferrer"
           >
             <Image
-              src="/static/icons/dribbble.svg"
+              src="/static/icons/instagram.svg"
               width={20}
               height={20}
-              alt="Dribbble icon"
+              alt="instagram icon"
             />
           </a>
         )}
@@ -68,7 +68,22 @@ export default function Stack() {
             />
           </a>
         )}
+        {contact.youtube && (
+          <a
+            href={`https://www.youtube.com/c/${contact.youtube}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              src="/static/icons/youtube.svg"
+              width={20}
+              height={20}
+              alt="youtube icon"
+            />
+          </a>
+        )}
       </div>
+      <div class="text-center text-1xl">Developed & Designed with ❤️ by <a href="https://github.com/nagarajpandith">Nagaraj Pandith</a></div>
     </div>
   );
 }
