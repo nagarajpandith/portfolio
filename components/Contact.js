@@ -83,7 +83,7 @@ export default function Stack() {
           </a>
         )}
       </div>
-      <div class="text-center text-1xl">Developed & Designed with ❤️ by <a href="https://github.com/nagarajpandith">Nagaraj Pandith</a></div>
+      <div className="text-center text-1xl">Developed & Designed with ❤️ by <a href="https://github.com/nagarajpandith">Nagaraj Pandith</a></div>
     </div>
   );
 }
