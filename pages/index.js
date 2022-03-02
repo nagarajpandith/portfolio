@@ -6,6 +6,7 @@ import Stack from '@/components/Stack';
 import Blogs from '@/components/Blogs';
 import Videos from '@/components/Videos';
 import About from '@/components/About';
+import Experience from '@/components/Experience';
 import { meta } from '@/data/config';
 
 export default function Index() {
@@ -18,6 +19,7 @@ export default function Index() {
         <Hero />
         <div className="p-0 space-y-10">
           <About />
+          <Experience />
           <Projects />
           <Blogs />
           <Videos />
