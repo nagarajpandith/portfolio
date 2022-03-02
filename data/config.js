@@ -40,12 +40,18 @@ export const projects = {
 };
 
 export const stack = {
-  title: 'My Stack',
-  stack: [
-    'html',
-    'css',
-    'js',
-    'react',
+  title: 'Technologies I\'m Familiar with!',
+  head1: 'Languages',
+  head2: 'Frameworks & Libraries',
+  head3: 'Tools & Tech',
+  lan: [
+    'C/C++', 'Python', 'HTML5', 'CSS/Sass', 'Javascript(ES6)'
+  ],
+  fr: [
+    'Tailwind CSS', 'Bootstrap', 'React', 'Next', 'Django', 'Strapi', 'PostgreSQL', 'MongoDB'
+  ],
+  tool: [
+    'Git', 'Github', 'Bash', 'Chrome DevTools', 'Heroku', 'Postman', 'Premiere Pro', 'After Effects', 'Photoshop'
   ]
 };
 
