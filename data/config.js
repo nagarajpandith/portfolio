@@ -57,7 +57,68 @@ export const stack = {
 
 export const contact = {
   title: 'Contact Me',
-  email: 'nagaraj.pandith2002@gmail.com',
   github: 'nagarajpandith',
-  linkedin: 'nagaraj-pandith'
+  linkedin: 'nagaraj-pandith',
+  mail: [
+    {
+      email: 'nagaraj.pandith2002@gmail.com',
+      info: 'Personal Email'
+    }
+  ]
+};
+
+export const blogs = {
+  title: 'My blogs',
+  desc: "Some of my blog articles which I've written in my leisure time.",
+  blogs: [
+    {
+      title: 'Has anyone seen Web3? - A Dev Roadmap',
+      description: '20+ documentations, tutorials, and videos to help you get started with Web3',
+      link: 'https://medium.com/@nagarajpandith/4e5dc9332c1f',
+      info: 'Read blog'
+    },
+    {
+      title: 'Starting web development the right way!',
+      description: 'A clear Roadmap to get started with Front-end Web development.',
+      link: 'https://medium.com/@nagarajpandith/f134df468917',
+      info: 'Read blog'
+    }
+  ]
+};
+
+export const videos = {
+  title: 'My videos',
+  desc: "Here are some of my favorite videos that I've worked on.",
+  videos: [
+    {
+      title: 'Missing Nature',
+      description: 'Story Video made based on the theme \'Missing Nature\', Won 2nd place in Video editing competition',
+      link: 'https://livestream.konkanischolarship.com/',
+      info: 'Watch Video'
+    },
+    {
+      title: 'Musical Tribute Video',
+      description: 'Musical tribute edited for 75th Independence Day, Reached 680+ views on YouTube',
+      link: 'https://youtu.be/vrCmese3jQQ',
+      info: 'Watch Video'
+    },
+    {
+      title: 'Pschology Behind Rape',
+      description: 'Is Rape always about sexual gratification or is it about the power that one gender wants to show the other?',
+      link: 'https://youtu.be/GLADFRPFpVk',
+      info: 'Watch Video'
+    },
+    {
+      title: 'OneSpace App Promo',
+      description: 'Overview Video for the Microsoft Design Challenge submission.',
+      link: 'https://www.youtube.com/watch?v=dCdM4JA4fgw',
+      info: 'Watch Video'
+    },
+    {
+      title: 'FLC Reel',
+      description: 'Instgram Promo reel of a Skill development lab',
+      link: 'https://www.instagram.com/reel/CYeH-FgJaAi/',
+      info: 'Watch Video'
+    }
+  ]
 };

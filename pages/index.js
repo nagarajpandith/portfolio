@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import Stack from '@/components/Stack';
+import Blogs from '@/components/Blogs';
+import Videos from '@/components/Videos';
 import { meta } from '@/data/config';
 
 export default function Index() {
@@ -15,6 +17,8 @@ export default function Index() {
         <Hero />
         <div className="p-0 space-y-10">
           <Projects />
+          <Blogs />
+          <Videos />
           <Stack />
           <Contact />
         </div>

@@ -9,11 +9,11 @@ export default function Stack() {
         </h2>
       </div>
 
-      <p className="text-lg mb-3">{stack.head1}</p>
+      <p className="text-lg font-bold mb-3">{stack.head1}</p>
       <div className="w-full flex flex-wrap -m-2">
         {stack.lan.map((item, index) => (
           <span
-            className="border  border-lightText rounded-lg m-2 px-3 py-1"
+            className="hover:text-sky-600 cursor-pointer border  border-lightText rounded-lg m-2 px-3 py-1"
             key={index}
           >
             {item}
@@ -21,11 +21,11 @@ export default function Stack() {
         ))}
       </div>
 
-      <p className="text-lg my-3">{stack.head2}</p>
+      <p className="text-lg font-bold my-3">{stack.head2}</p>
       <div className="w-full flex flex-wrap -m-2">
         {stack.fr.map((item, index) => (
           <span
-            className="border  border-lightText rounded-lg m-2 px-3 py-1"
+            className="hover:text-sky-600 cursor-pointer border  border-lightText rounded-lg m-2 px-3 py-1"
             key={index}
           >
             {item}
@@ -33,11 +33,11 @@ export default function Stack() {
         ))}
       </div>
 
-      <p className="my-3">{stack.head3}</p>
+      <p className="text-lg font-bold my-3">{stack.head3}</p>
       <div className="w-full flex flex-wrap -m-2">
         {stack.tool.map((item, index) => (
           <span
-            className="border  border-lightText rounded-lg m-2 px-3 py-1"
+            className="hover:text-sky-600 cursor-pointer border  border-lightText rounded-lg m-2 px-3 py-1"
             key={index}
           >
             {item}
