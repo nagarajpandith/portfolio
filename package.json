@@ -1,6 +1,5 @@
 {
-  "name": "nagarajpandith.github.io",
-  "version": "0.1.0",
+  "name": "obsidian",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,16 +8,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.5.0",
-    "next": "12.1.0",
+    "next": "^12.1.0",
+    "next-themes": "^0.0.15",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
-    "eslint": "8.10.0",
-    "eslint-config-next": "12.1.0",
-    "postcss": "^8.4.7",
-    "tailwindcss": "^3.0.23"
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.5",
+    "prettier": "2.5.1",
+    "tailwindcss": "^3.0.7"
   }
 }
