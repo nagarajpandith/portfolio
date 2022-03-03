@@ -5,7 +5,7 @@ export default function Experience() {
   {/* Will be optimised and be sent as props */}
 
             <div className="overflow-x-hidden w-full">
-            <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max ">
+            <h2 className="landingSectionTitle max-w-max mx-0 text-left relative md:w-max">
             Experience
             </h2>
             </div>
@@ -26,7 +26,7 @@ export default function Experience() {
             </ol>
 
             <div className="overflow-x-hidden w-full">
-            <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max ">
+            <h2 className="landingSectionTitle max-w-max mx-0 text-left relative md:w-max ">
             Education
             </h2>
             </div>
