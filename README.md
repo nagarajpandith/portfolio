@@ -2,6 +2,7 @@ Portfolio in Construction ⛏
 
 ## To-Dos
 - [ ] Threejs Animation
+- [ ] Cards
 - [ ] Gradient text
 - [ ] Contact Form
 - [ ] Navbar
