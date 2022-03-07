@@ -87,7 +87,7 @@ export default function Stack() {
           </a>
         )}
       </div>
-      <div className="mt-6 text-center text-1xl dark:text-white">Developed & Designed with ❤️ by <a href="https://github.com/nagarajpandith" className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 dark:from-purple-400 dark:to-pink-600 dark:text-transparent'><span className="link link-underline link-underline-black">Nagaraj Pandith</span></a></div>
+      <div className="mt-6 text-center text-1xl dark:text-white">Developed & Designed with ❤️ by <a href="https://github.com/nagarajpandith" className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 dark:from-purple-400 dark:to-pink-600 dark:text-transparent'>Nagaraj Pandith</a></div>
     </div>
   );
 }
