@@ -15,6 +15,7 @@ body {
     sans-serif;
   @apply dark:bg-dark bg-white text-lightText  transition-colors duration-500;
   line-height: 1.8rem;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -58,4 +59,46 @@ ul {
   height: 1px;
   width: 100vw;
   @apply bg-lightText;
+}
+
+.dark .headline {
+    --tw-gradient-from: #945bf1;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgb(148 91 241/0));
+    --tw-gradient-stops: var(--tw-gradient-from),#bb48bf,var(--tw-gradient-to,rgb(187 72 191/0));
+    --tw-gradient-to: #f67e4d;
+}
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.mt-8 {
+    margin-top: 2rem;
+}
+.headline {
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+    --tw-gradient-from: #00baff;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgb(0 186 255/0));
+    --tw-gradient-to: #063ef9;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    color: transparent;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(45deg, cyan, blue);
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%
 }

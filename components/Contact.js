@@ -3,9 +3,9 @@ import { contact } from '@/data/config';
 
 export default function Stack() {
   return (
-    <div>
+    <div id="contact">
       <div className="overflow-x-hidden w-full">
-        <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max ">
+        <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 dark:from-purple-400 dark:to-pink-600 dark:text-transparent">
           {contact.title}
         </h2>
       </div>
@@ -36,6 +36,7 @@ export default function Stack() {
               src="/static/icons/github.svg"
               width={20}
               height={20}
+              className="hover:scale-105"
               alt="Github icon"
             />
           </a>
@@ -50,6 +51,7 @@ export default function Stack() {
               src="/static/icons/instagram.svg"
               width={20}
               height={20}
+              className="hover:scale-105"
               alt="instagram icon"
             />
           </a>
@@ -64,6 +66,7 @@ export default function Stack() {
               src="/static/icons/linkedin.svg"
               width={20}
               height={20}
+              className="hover:scale-105"
               alt="LinkedIn icon"
             />
           </a>
@@ -78,12 +81,13 @@ export default function Stack() {
               src="/static/icons/youtube.svg"
               width={20}
               height={20}
+              className="hover:scale-105"
               alt="youtube icon"
             />
           </a>
         )}
       </div>
-      <div className="mt-4 text-center text-1xl">Developed & Designed with ❤️ by <a href="https://github.com/nagarajpandith">Nagaraj Pandith</a></div>
+      <div className="mt-6 text-center text-1xl dark:text-white">Developed & Designed with ❤️ by <a href="https://github.com/nagarajpandith" className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 dark:from-purple-400 dark:to-pink-600 dark:text-transparent'><span className="link link-underline link-underline-black">Nagaraj Pandith</span></a></div>
     </div>
   );
 }

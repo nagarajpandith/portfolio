@@ -4,7 +4,8 @@ export const meta = {
 }
 
 export const hero = {
-  title: "Hey there! I'm Nagaraj Pandith.",
+  title: "Hey there! I'm",
+  name: "Nagaraj Pandith.",
   desc: "I'm a web developer and video editor making things people love."
 };
 
@@ -16,7 +17,12 @@ export const projects = {
       title: 'Live-Stream Studio Booking',
       description: 'Full-stack booking system to book & manage studio.',
       link: 'https://livestream.konkanischolarship.com/',
-      github: 'nagarajpandith/live-stream-studio-booking'
+      github: 'nagarajpandith/live-stream-studio-booking',
+      tags: [
+        {
+          tag1: 'bootstrap', 
+          tag2: 'django',
+        }]
     },
     {
       title: 'Study Resources',
@@ -138,3 +144,15 @@ export const about = {
   desc: "Hello there! A lil' backstory of mine. Technology and Computers always fascinated me since childhood. Back in 2017, I had developed an interest in Cybersecurity and constantly explored the Security field. My curiosity in Web development grew in 2019 observing beautiful Web UIs on Personal and Business web pages. I then started my journey learning basic internet fundamentals, Javascript to Django and other tech throughout my journey. Fast forward to now, I'm a proficient Full-stack web developer, with React in frontend and Django in backend. I also love creating videos on Adobe Premiere Pro and making tiny motion graphics on Adobe After effects as well. Ocassionally, I also write tech articles on Medium and also create videos on my YouTube channel. While not working on a project, you'll find me watching a Crime thriller or jamming to some EDM banger."
 };
 
+export const navbar = {
+  first: "About",
+  flink: '#about',
+  second: "Experience",
+  slink: '#experience',
+  third: "Projects",
+  tlink: '#projects',
+  fourth: "Contact",
+  folink: '#contact',
+  fifth: "Download Resume",
+  filink: 'https://drive.google.com/uc?export=download&id=1o_sngTGSg7DiGbG6yW3QqTzjwcaud6KU',
+};

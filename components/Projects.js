@@ -3,14 +3,14 @@ import { projects } from '@/data/config';
 
 export default function Projects() {
   return (
-    <div className="">
+    <div id="projects">
       <div className="overflow-x-hidden w-full">
-        <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max ">
+        <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 dark:from-purple-400 dark:to-pink-600 dark:text-transparent">
           {projects.title}
         </h2>
       </div>
       <p className="text-lg">{projects.desc}</p>
-      <div className=" mt-8">
+      <div className="mt-8">
         {projects.projects.map((item, index) => {
           return (
             <div
@@ -56,6 +56,13 @@ export default function Projects() {
                     </span>
                   </a>
                 )}
+              </div>
+              <div class="pt-4">
+              {/* <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"></span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"></span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"></span> */}
+              <div> 
+              </div>
               </div>
             </div>
           );
