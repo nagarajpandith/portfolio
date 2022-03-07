@@ -57,7 +57,7 @@ export default function Projects() {
                   </a>
                 )}
               </div>
-              <div class="pt-4">
+              <div className="pt-4">
               {/* <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"></span>
               <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"></span>
               <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"></span> */}
