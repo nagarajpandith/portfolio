@@ -3,8 +3,8 @@ Portfolio in Construction ⛏
 ## To-Dos
 - [ ] Threejs Animation
 - [ ] Cards
-- [ ] Gradient text
+- [x] Gradient text
 - [ ] Contact Form
-- [ ] Navbar
+- [x] Navbar
 - [ ] Preloader Animation 
 - [ ] Cursor and hover animations & Transitions 
