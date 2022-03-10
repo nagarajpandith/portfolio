@@ -157,7 +157,7 @@ export const navbar = {
   second: "Experience",
   slink: '#experience',
   third: "Projects",
-  tlink: '#projects',
+  tlink: '/projects',
   fourth: "Contact",
   folink: '#contact',
   fifth: "Download Resume",

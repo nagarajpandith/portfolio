@@ -1,10 +1,7 @@
 import Contact from '@/components/Contact';
 import Head from 'next/head'
 import Hero from '@/components/Hero';
-import Projects from '@/components/Projects';
 import Stack from '@/components/Stack';
-import Blogs from '@/components/Blogs';
-import Videos from '@/components/Videos';
 import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Navbar from '@/components/Navbar';
@@ -22,9 +19,6 @@ export default function Index() {
         <div className="p-0 space-y-10">
           <About />
           <Experience />
-          <Projects />
-          <Blogs />
-          <Videos />
           <Stack />
           <Contact />
         </div>
