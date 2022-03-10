@@ -39,11 +39,16 @@ export default function Videos() {
                   </a>
                 )}
               </div>
+              <div className="pt-4">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">{item.tags}</span>
+              <div> 
+            </div>
+            </div>
             </div>
           );
         })}
       </div>
-      <a className="hover:text-sky-400 text-lg" href="https://www.youtube.com/c/TheMaterrwelonn">Watch more videos here.</a>
+      <a className="text-xl link link-underline link-underline-black" href="https://www.youtube.com/c/TheMaterrwelonn">Watch more videos here.</a>
     </div>
   );
 }

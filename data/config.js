@@ -18,30 +18,31 @@ export const projects = {
       description: 'Full-stack booking system to book & manage studio.',
       link: 'https://livestream.konkanischolarship.com/',
       github: 'nagarajpandith/live-stream-studio-booking',
-      tags: [
-        {
-          tag1: 'bootstrap', 
-          tag2: 'django',
-        }]
+      img: "live-stream.png",
+      tags: ['Bootstrap, ', ' Django']
     },
     {
       title: 'Study Resources',
       description: 'Built with Glassmorphism UI, contains Notes, Textbooks, Video Tutorials and pretty much everything needed for B.E.',
       link: 'https://nitte.tk/',
-      github: 'nagarajpandith/nmamit-sr'
+      github: 'nagarajpandith/nmamit-sr',
+      img: "nmamit-sr.png",
+      tags: ['HTML5, ', ' CSS3, ', ' JS']
     },
     {
       title: 'MakeMeAfford',
       description: 'Full stack Travel budget planner built at Hackverse 3.0, 24 hr Hackathon by NITK Surathkal.',
       link: '',
-      github: 'swasthikshetty10/hackverse22'
+      github: 'swasthikshetty10/hackverse22',
+      tags: ['Next, ', ' Prisma, ', ' Postgres, ', ' Tailwind']
     },
     {
       title: 'Hostel site',
       description: 'A website built as a Tribute to TVM Sir and to share WKC Hostel Experiences.',
       link: 'https://ourhome.konkanischolarship.com/',
-      github: 'kishorbalgi/hostel-site'
-    }
+      github: 'kishorbalgi/hostel-site',
+      tags: ['Bootstrap, ', ' Django']
+    },
   ]
 };
 
@@ -91,13 +92,15 @@ export const blogs = {
       title: 'Has anyone seen Web3? - A Dev Roadmap',
       description: '20+ documentations, tutorials, and videos to help you get started with Web3',
       link: 'https://medium.com/@nagarajpandith/4e5dc9332c1f',
-      info: 'Read blog'
+      info: 'Read blog',
+      tags: ['1.3K+ claps, ', '13+ Responses']
     },
     {
       title: 'Starting web development the right way!',
       description: 'A clear Roadmap to get started with Front-end Web development.',
       link: 'https://medium.com/@nagarajpandith/f134df468917',
-      info: 'Read blog'
+      info: 'Read blog',
+      tags: ['70+ Claps']
     }
   ]
 };
@@ -110,31 +113,36 @@ export const videos = {
       title: 'Missing Nature',
       description: 'Story Video made based on the theme \'Missing Nature\', Won 2nd place in Video editing competition',
       link: 'https://livestream.konkanischolarship.com/',
-      info: 'Watch Video'
+      info: 'Watch Video',
+      tags: ['Color correction, ', ' Seamless Transitions, ', ' Custom Text FX, ', ' Audio editing']
     },
     {
       title: 'Musical Tribute Video',
       description: 'Musical tribute edited for 75th Independence Day, Reached 680+ views on YouTube',
       link: 'https://youtu.be/vrCmese3jQQ',
-      info: 'Watch Video'
+      info: 'Watch Video',
+      tags: ['Color grading, ', ' Seamless Transitions, ', ' Audio editing']
     },
     {
       title: 'Pschology Behind Rape',
       description: 'Is Rape always about sexual gratification or is it about the power that one gender wants to show the other?',
       link: 'https://youtu.be/GLADFRPFpVk',
-      info: 'Watch Video'
+      info: 'Watch Video',
+      tags: ['Audio editing, ', ' Seamless Transitions']
     },
     {
       title: 'OneSpace App Promo',
       description: 'Overview Video for the Microsoft Design Challenge submission.',
       link: 'https://www.youtube.com/watch?v=dCdM4JA4fgw',
-      info: 'Watch Video'
+      info: 'Watch Video',
+      tags: ['UI/UX mockup, ', ' Custom Text FX']
     },
     {
       title: 'FLC Reel',
       description: 'Instgram Promo reel of a Skill development lab',
       link: 'https://www.instagram.com/reel/CYeH-FgJaAi/',
-      info: 'Watch Video'
+      info: 'Watch Video',
+      tags: ['Seamless transitions, ', ' Custom Text FX']
     }
   ]
 };
