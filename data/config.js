@@ -153,13 +153,13 @@ export const about = {
 
 export const navbar = {
   first: "About",
-  flink: '#about',
+  flink: '/#about',
   second: "Experience",
-  slink: '#experience',
+  slink: '/#experience',
   third: "Projects",
   tlink: '/projects',
   fourth: "Contact",
-  folink: '#contact',
+  folink: '/#contact',
   fifth: "Download Resume",
   filink: 'https://drive.google.com/uc?export=download&id=1o_sngTGSg7DiGbG6yW3QqTzjwcaud6KU',
 };
