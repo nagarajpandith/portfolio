@@ -19,7 +19,7 @@ export default function Experience() {
             </li>
             <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jan 2022 - Present</time>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jan 2022 - Mar 2022</time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Farmoid Robotech Pvt. Ltd.</h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">Frontend Web Developer</p>
             </li>
