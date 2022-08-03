@@ -9,22 +9,15 @@ export default function Stack() {
           {contact.title}
         </h2>
       </div>
-      {contact.mail.map((item, index) => {
-          return (
-            <div key={index}>
             <p>
-              {item.info}:{' '}
+              Email: {' '}
               <a
                 className="dark:text-white text-black transition-colors duration-500"
-                href={`mailto:${item.email}`}
+                href={`mailto:${contact.mail}`}
               >
-                {item.email}
+                {contact.mail}
               </a>
             </p>
-            </div>
-          );
-        })}
-
       <div className="flex space-x-5 mt-5 text-lightText transition-colors duration-500">
         {contact.github && (
           <a

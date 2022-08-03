@@ -40,7 +40,7 @@ export default function Videos() {
                 )}
               </div>
               <div className="pt-4">
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">{item.tags}</span>
+                  <span className="inline-block bg-gray-200 rounded-full p-2 text-sm font-semibold text-gray-700">{item.tags}</span>
               <div> 
             </div>
             </div>

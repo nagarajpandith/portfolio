@@ -14,6 +14,13 @@ export const projects = {
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
+      title: 'Le-Waks Menu',
+      description: 'Menu web app built for a Saudi client - Le Waks | Burgers & More.',
+      link: 'https://lewaks.co/',
+      github: 'nagarajpandith/le-waks-menu',
+      tags: ['Nextjs, ', ' TailwindCSS, ', 'Framer-Motion']
+    },
+    {
       title: 'Live-Stream Studio Booking',
       description: 'Full-stack booking system to book & manage studio.',
       link: 'https://livestream.konkanischolarship.com/',
@@ -36,13 +43,6 @@ export const projects = {
       github: 'swasthikshetty10/hackverse22',
       tags: ['Next, ', ' Prisma, ', ' Postgres, ', ' Tailwind']
     },
-    {
-      title: 'Hostel site',
-      description: 'A website built as a Tribute to TVM Sir and to share WKC Hostel Experiences.',
-      link: 'https://ourhome.konkanischolarship.com/',
-      github: 'kishorbalgi/hostel-site',
-      tags: ['Bootstrap, ', ' Django']
-    },
   ]
 };
 
@@ -55,10 +55,10 @@ export const stack = {
     'C/C++', 'Python', 'HTML5', 'CSS/Sass', 'Javascript(ES6)'
   ],
   fr: [
-    'Tailwind CSS', 'Bootstrap', 'React', 'Next', 'Django', 'Strapi', 'PostgreSQL', 'MongoDB'
+    'Tailwind CSS', 'Bootstrap', 'React', 'Next', 'Prisma', 'Django', 'Strapi', 'PostgreSQL', 'MongoDB'
   ],
   tool: [
-    'Git', 'Github', 'Bash', 'Chrome DevTools', 'Heroku', 'Postman', 'Premiere Pro', 'After Effects', 'Photoshop'
+    'Git', 'Github', 'Bash', 'Chrome DevTools', 'Heroku', 'Canva', 'Postman', 'Premiere Pro', 'After Effects', 'Photoshop'
   ]
 };
 
@@ -68,20 +68,7 @@ export const contact = {
   linkedin: 'nagaraj-pandith',
   instagram: 'nagarajpandithh',
   youtube: 'TheMaterrwelonn',
-  mail: [
-    {
-      email: 'nagaraj.pandith2002@gmail.com',
-      info: 'Personal mail'
-    },
-    {
-      email: 'nagaraj.pandith@vibean.co',
-      info: 'Work mail'
-    },
-    {
-      email: '4nm20cs115@nmamit.in',
-      info: 'College mail'
-    }
-  ]
+  mail: 'nagaraj.pandith2002@gmail.com'
 };
 
 export const blogs = {
@@ -117,18 +104,18 @@ export const videos = {
       tags: ['Color correction, ', ' Seamless Transitions, ', ' Custom Text FX, ', ' Audio editing']
     },
     {
-      title: 'Musical Tribute Video',
-      description: 'Musical tribute edited for 75th Independence Day, Reached 680+ views on YouTube',
-      link: 'https://youtu.be/vrCmese3jQQ',
+      title: 'Incridea-2022 Recap',
+      description: 'Unofficial recap video of college fest',
+      link: 'https://www.instagram.com/tv/CfWn--JlfgH/',
       info: 'Watch Video',
-      tags: ['Color grading, ', ' Seamless Transitions, ', ' Audio editing']
+      tags: ['Seamless transitions, ', ' Audio editing, ', 'Color Grading']
     },
     {
-      title: 'Pschology Behind Rape',
-      description: 'Is Rape always about sexual gratification or is it about the power that one gender wants to show the other?',
-      link: 'https://youtu.be/GLADFRPFpVk',
+      title: 'Jain Culture - Karkala',
+      description: 'Cinematic Travel reel exploring Jain culture of Karkala',
+      link: 'https://www.instagram.com/reel/CgwA_LElOM8/',
       info: 'Watch Video',
-      tags: ['Audio editing, ', ' Seamless Transitions']
+      tags: ['B-rolls, ', ' Visual FX, ', 'Color Grading']
     },
     {
       title: 'OneSpace App Promo',
@@ -139,11 +126,11 @@ export const videos = {
     },
     {
       title: 'FLC Reel',
-      description: 'Instgram Promo reel of a Skill development lab',
+      description: 'Instagram Promo reel of a Skill development lab',
       link: 'https://www.instagram.com/reel/CYeH-FgJaAi/',
       info: 'Watch Video',
       tags: ['Seamless transitions, ', ' Custom Text FX']
-    }
+    },
   ]
 };
 
