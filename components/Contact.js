@@ -4,11 +4,30 @@ import { contact } from '@/data/config';
 export default function Stack() {
   return (
     <div id="contact">
+ 
       <div className="overflow-x-hidden w-full">
         <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 dark:from-purple-400 dark:to-pink-600 dark:text-transparent">
           {contact.title}
         </h2>
       </div>
+        <form className='p-2 my-2 mb-6 flex flex-col border items-center border-gray-200 dark:border-gray-600 '
+            action="https://formspree.io/f/xzbwgbnk" method="POST">
+          <label className='p-2 flex flex-wrap items-start justify-between w-5/6 max-w-lg'>
+            Name:<input className='block w-full p-1 bg-white border border-lightText rounded' 
+            type="text" name="name" placeholder='John wick' required/>
+          </label>
+          <label className='p-2 flex flex-wrap items-start justify-between w-5/6 max-w-lg'>
+            Email:<input className='block w-full p-1 bg-white border border-lightText rounded'
+             type="email" name="email" placeholder="error404@gmail.com" required/>
+          </label>
+          <label className='p-2 flex flex-wrap items-start justify-between w-5/6 max-w-lg'>
+            Message:<textarea className='block w-full p-1 bg-white border border-lightText rounded'
+            name="message" placeholder="Tell me what's in your mind" required></textarea>
+          </label>
+          <button type="submit" className='m-4 mt-6 px-3 py-2 border border-lightText rounded-lg hover:rounded 
+          hover:scale-105 hover:bg-gradient-to-r hover:dark:text-black hover:text-white from-cyan-500 to-blue-500 dark:from-purple-400
+           dark:to-pink-600'>Send</button>
+        </form>
             <p>
               Email: {' '}
               <a
