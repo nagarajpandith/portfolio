@@ -1,6 +1,9 @@
 import { stack } from '@/data/config';
 
 export default function Stack() {
+  const search=(e)=>{
+    window.open(`https://www.google.com/search?q=${e.target.textContent}`,'_blank')
+  }
   return (
     <div>
       <div className="overflow-x-hidden w-full">
@@ -13,8 +16,9 @@ export default function Stack() {
       <div className="w-full flex flex-wrap -m-2">
         {stack.lan.map((item, index) => (
           <span
-            className="hover:scale-105 cursor-pointer border  border-lightText rounded-lg m-2 px-3 py-1"
+            className="hover:bg-gradient-to-r hover:dark:text-black hover:text-white from-cyan-500 to-blue-500 dark:from-purple-400 dark:to-pink-600 hover:scale-105 cursor-pointer border  border-lightText rounded-lg m-2 px-3 py-1"
             key={index}
+            onDoubleClick={search}
           >
           {item}
           </span>
@@ -25,8 +29,9 @@ export default function Stack() {
       <div className="w-full flex flex-wrap -m-2">
         {stack.fr.map((item, index) => (
           <span
-            className="hover:scale-105 cursor-pointer border  border-lightText rounded-lg m-2 px-3 py-1"
+            className="hover:bg-gradient-to-r hover:text-black from-cyan-500 to-blue-500 dark:from-purple-400 dark:to-pink-600 hover:scale-105 cursor-pointer border  border-lightText rounded-lg m-2 px-3 py-1"
             key={index}
+            onDoubleClick={search}
           >
           {item}
           </span>
@@ -37,8 +42,9 @@ export default function Stack() {
       <div className="w-full flex flex-wrap -m-2">
         {stack.tool.map((item, index) => (
           <span
-            className="hover:scale-105 cursor-pointer border  border-lightText rounded-lg m-2 px-3 py-1"
+            className="hover:bg-gradient-to-r hover:text-black from-cyan-500 to-blue-500 dark:from-purple-400 dark:to-pink-600 hover:scale-105 cursor-pointer border  border-lightText rounded-lg m-2 px-3 py-1"
             key={index}
+            onDoubleClick={search}
           >
           {item}
           </span>
