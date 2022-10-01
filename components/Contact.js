@@ -13,15 +13,15 @@ export default function Stack() {
         <form className='p-2 my-2 mb-6 flex flex-col border items-center border-gray-200 dark:border-gray-600 '
             action="https://formspree.io/f/xzbwgbnk" method="POST">
           <label className='p-2 flex flex-wrap items-start justify-between w-5/6 max-w-lg'>
-            Name:<input className='block w-full p-1 bg-white border border-lightText rounded' 
+            Name:<input className='block w-full p-1 bg-white border dark:bg-gray-500 dark:text-white px-2 border-lightText rounded' 
             type="text" name="name" placeholder='John wick' required/>
           </label>
           <label className='p-2 flex flex-wrap items-start justify-between w-5/6 max-w-lg'>
-            Email:<input className='block w-full p-1 bg-white border border-lightText rounded'
+            Email:<input className='block w-full p-1 bg-white dark:bg-gray-500 dark:text-white px-2 border border-lightText rounded'
              type="email" name="email" placeholder="error404@gmail.com" required/>
           </label>
           <label className='p-2 flex flex-wrap items-start justify-between w-5/6 max-w-lg'>
-            Message:<textarea className='block w-full p-1 bg-white border border-lightText rounded'
+            Message:<textarea className='block w-full p-1 bg-white border dark:bg-gray-500 dark:text-white px-2 border-lightText rounded'
             name="message" placeholder="Tell me what's in your mind" required></textarea>
           </label>
           <button type="submit" className='m-4 mt-6 px-3 py-2 border border-lightText rounded-lg hover:rounded 
