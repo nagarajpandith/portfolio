@@ -1,7 +1,7 @@
-import './globals.css';
+import '../../app/globals.css';
 
 export const metadata = {
-  title: 'Portfolio',
+  title: 'Sanity Studio',
   description: '',
 };
 
