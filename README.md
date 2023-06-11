@@ -1,10 +1,4 @@
-Portfolio in Construction ⛏
-
-## To-Dos
-- [ ] Threejs Animation
-- [ ] Cards
-- [x] Gradient text
-- [ ] Contact Form
-- [x] Navbar
-- [ ] Preloader Animation 
-- [ ] Cursor and hover animations & Transitions 
+## Portfolio
+1. v1 [here](https://github.com/nagarajpandith/portfolio-v2/tree/v1)
+2. v2 [here](https://github.com/nagarajpandith/portfolio-v2)
+3. v3 [here](https://github.com/nagarajpandith/portfolio) [**latest**]
