@@ -21,10 +21,10 @@ export default function Navbar() {
 
              </div>
             <nav className={ham?"flex flex-col justify-center items-center md:block":"hidden md:block"}>
-            <Link href={navbar.flink}><a className="p-3 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 dark:text-gray-400"><span className="link link-underline link-underline-black">{navbar.first}</span></a></Link>
-            <Link href={navbar.slink}><a className="p-3 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 dark:text-gray-400"><span className="link link-underline link-underline-black">{navbar.second}</span></a></Link>
-            <Link href={navbar.tlink}><a className="p-3 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 dark:text-gray-400"><span className="link link-underline link-underline-black">{navbar.third}</span></a></Link>
-            <Link href={navbar.folink}><a className="p-3 lg:mr-44 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 dark:text-gray-400"><span className="link link-underline link-underline-black">{navbar.fourth}</span></a></Link>
+            <Link href={navbar.flink} className="p-3 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 dark:text-gray-400"><span className="link link-underline link-underline-black">{navbar.first}</span></Link>
+            <Link href={navbar.slink} className="p-3 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 dark:text-gray-400"><span className="link link-underline link-underline-black">{navbar.second}</span></Link>
+            <Link href={navbar.tlink} className="p-3 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 dark:text-gray-400"><span className="link link-underline link-underline-black">{navbar.third}</span></Link>
+            <Link href={navbar.folink} className="p-3 lg:mr-44 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 dark:text-gray-400"><span className="link link-underline link-underline-black">{navbar.fourth}</span></Link>
             </nav>   
             <a href={navbar.filink} className="lg:mr-5 gradient-border transition transition-300 rounded-md px-4 py-2 headline hover:gradient-bg hover:text-off-white group flex gap-2 whitespace-nowrap" download="">
             <div className="block headline group-hover:text-off-white">{navbar.fifth}</div>

@@ -40,15 +40,25 @@ export default function Videos() {
                 )}
               </div>
               <div className="pt-4">
-                  <span className="inline-block bg-gray-200 rounded-full p-2 text-sm font-semibold text-gray-700">{item.tags}</span>
-              <div> 
-            </div>
-            </div>
+                {item.tags.map((tag, index) => (
+                  <span
+                    key={index}
+                    className="inline-block bg-gray-200 rounded-full p-2 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
           );
         })}
       </div>
-      <a className="text-lg link link-underline link-underline-black" href="https://www.youtube.com/c/TheMaterrwelonn">Watch more videos here.</a>
+      <a
+        className="text-lg link link-underline link-underline-black"
+        href="https://www.youtube.com/c/TheMaterrwelonn"
+      >
+        Watch more videos here.
+      </a>
     </div>
   );
 }

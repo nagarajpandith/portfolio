@@ -13,7 +13,10 @@ export default function Projects() {
       <div className="mt-8">
         {projects.projects.map((item, index) => {
           return (
-            <div key={index} className="p-6 border border-lightText rounded-xl mb-4">
+            <div
+              key={index}
+              className="p-6 border border-lightText rounded-xl mb-4"
+            >
               {/*<div className="hero container max-w-screen-lg mx-auto text-center pb-10">
               <img src={`static/images/${item.img}`} alt="screenshot" width="700" />
               </div>*/}
@@ -58,9 +61,14 @@ export default function Projects() {
                 )}
               </div>
               <div className="pt-4">
-                  <span className="inline-block bg-gray-200 rounded-full p-2 text-sm font-semibold text-gray-700">{item.tags}</span>
-              <div> 
-              </div>
+                {item.tags.map((tag, index) => (
+                  <span
+                    key={index}
+                    className="inline-block bg-gray-200 rounded-full p-2 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >
+                    {tag}
+                  </span>
+                ))}
               </div>
             </div>
           );
